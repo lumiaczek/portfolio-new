@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --color-primary: #222831;
+    --color-secondary: #393e46;
+    --color-accent: #4ECCA3;
+    --color-neutral: #eeeeee;
+
+    --font-josefin: 'Josefin Sans', sans-serif;
+    --font-bungee: 'Bungee', cursive;
+}
+
+@layer base {
+    html {
+        @apply bg-primary text-neutral font-josefin scroll-smooth;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-bold;
+    }
+
+
+}
