@@ -1,10 +1,10 @@
 <script>
 	import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-	import Button from './Button.svelte';
+	import Button from '../UI/Button.svelte';
 	import { goto } from '$app/navigation';
 </script>
 
-<section class="max-w-7xl mb-8 mx-auto px-4 sm:px-6 lg:px-8" id="about">
+<section class="max-w-7xl mb-8 mx-auto px-4 min-h-[50vh] sm:px-6 lg:px-8 scroll-m-24" id="about">
 	<div class="mt-20 mb-4 r">
 		<p class="text-2xl mb-1">Poznaj mnie bliżej</p>
 		<h2 class="text-7xl text-accent font-semibold">O mnie</h2>
@@ -22,8 +22,7 @@
 				Obecnie zakończyłem już naukę w technikum i jestem gotów na nowe wyzwania. Moim celem jest
 				zdobycie tytułu inżyniera na Politechnice Poznańskiej, gdzie planuję studiować
 				cyberbezpieczeństwo. W międzyczasie chcę rozwijać swoje umiejętności teoretyczne, kończąc
-				kurs Cisco CCNP, a także praktyczne, pracując w branży IT. Wierzę, że łącząc teorię z
-				praktyką, mogę stać się jeszcze lepszym specjalist.
+				kurs Cisco CCNP, a także praktyczne, pracując w branży IT.
 			</p>
 
 			<Button

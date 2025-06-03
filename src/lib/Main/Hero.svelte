@@ -37,10 +37,10 @@
 	</div>
 	<div class="absolute bottom-5 flex flex-row items-center justify-center">
 		<button
-			class="bg-secondary/60 px-5 py-4 rounded-full shadow-lg animate-bounce cursor-pointer"
+			class="bg-secondary/60 px-5 py-4 rounded-full shadow-lg animate-bounce cursor-pointer focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-secondary"
 			on:click={() => goto('/#about')}
 		>
-			<Fa icon={faArrowDown} class="text-2xl text-accent animate-float-slowerer" />
+			<Fa icon={faArrowDown} class="text-2xl text-accent" />
 		</button>
 	</div>
 </main>

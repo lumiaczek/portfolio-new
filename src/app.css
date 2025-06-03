@@ -21,5 +21,9 @@
         @apply font-bold;
     }
 
+    input, textarea {
+        @apply appearance-none;
+    }
+
 
 }

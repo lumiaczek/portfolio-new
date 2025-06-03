@@ -1,7 +1,7 @@
 <script>
 	import { goto } from '$app/navigation';
-	import Button from '$lib/Button.svelte';
-	import Skills from '$lib/Skills.svelte';
+	import Button from '$lib/UI/Button.svelte';
+	import Skills from '$lib/About/Skills.svelte';
 	import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 </script>
 
