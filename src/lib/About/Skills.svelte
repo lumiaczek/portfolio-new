@@ -13,10 +13,10 @@
 	id="kwalifikacje"
 >
 	<div class="mt-10 mb-2 r">
-		<p class="text-2xl mb-1">Poznaj moje umiejętności</p>
-		<h2 class="text-7xl text-accent font-semibold">Kwalifikacje</h2>
+		<p class="text-xl sm:text-2xl mb-1">Poznaj moje umiejętności</p>
+		<h2 class="text-5xl md:text-7xl text-accent font-semibold">Kwalifikacje</h2>
 	</div>
-	<div class="flex flex-row gap-4 mb-4 text-lg">
+	<div class="flex flex-row gap-4 mb-4 text-lg flex-wrap">
 		<button
 			class="px-6 py-3 bg-secondary text-neutral rounded-lg shadow-lg hover:bg-accent/50
     transition duration-200"

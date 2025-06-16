@@ -9,8 +9,8 @@
 			<p class="font-bungee text-3xl">Daniel <b class="text-accent">Borowski</b></p>
 			<p class="text-center text-sm max-w-xl">
 				Jestem z wykształcenia technikiem informatykiem, specjalizującym się w sieciach
-				komputerowych oraz w obsłudze Linuxa, ale znam się również na cyberbezpieczeństwie i
-				full-stack web developmentcie.
+				komputerowych oraz administracji system Linux, ale znam się również na cyberbezpieczeństwie
+				i full-stack web developmentcie.
 			</p>
 			<div class="flex flex-row gap-2 mt-2">
 				<a

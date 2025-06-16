@@ -6,7 +6,7 @@
 
 <article class="grid grid-cols-1 lg:grid-cols-2 gap-2" in:fly={{ x: 80, duration: 600 }}>
 	<div class="p-4">
-		<h3 class="text-3xl text-center font-bungee mb-4">Sieci komputerowe</h3>
+		<h3 class="text-2xl md:text-3xl text-center font-bungee mb-4">Sieci komputerowe</h3>
 		<div class="relative flex mb-4 bg-secondary p-4 rounded-lg shadow-lg">
 			<img src="ccnp.webp" alt="" class="h-22" />
 			<div class="flex flex-col justify-center ml-4">
@@ -65,7 +65,7 @@
 		</div>
 	</div>
 	<div class="p-4">
-		<h3 class="text-3xl text-center font-bungee mb-4">Cyberbezpieczeństwo</h3>
+		<h3 class="text-2xl md:text-3xl text-center font-bungee mb-4">Cyberbezpieczeństwo</h3>
 		<div class="relative flex mb-4 bg-secondary p-4 rounded-lg shadow-lg">
 			<img src="ns.webp" alt="" class="h-22" />
 			<div class="flex flex-col justify-center ml-4">

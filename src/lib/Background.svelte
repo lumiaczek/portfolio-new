@@ -2,36 +2,42 @@
 	const binaries = [
 		{
 			text: '1010',
-			class: 'left-1/4 top-1/3 text-6xl text-accent opacity-20 animate-float-slower'
+			class: 'left-1/4 top-1/3 text-6xl text-accent opacity-20 animate-float-slower hidden sm:block'
 		},
 		{
 			text: '01101',
-			class: 'right-1/4 top-1/2 text-5xl text-teal-200 opacity-15 animate-float-slower'
+			class: 'right-1/4 top-1/2 text-5xl text-teal-200 opacity-15 animate-float-slower '
 		},
 		{
 			text: '1101',
-			class: 'left-1/3 bottom-1/4 text-7xl text-accent opacity-10 animate-float-slower'
+			class:
+				'left-1/3 bottom-1/4 text-7xl text-accent opacity-10 animate-float-slower hidden sm:block'
 		},
 		{
 			text: '1001',
-			class: 'right-1/3 bottom-1/3 text-4xl text-teal-100 opacity-20 animate-float-slower'
+			class:
+				'right-1/3 bottom-1/3 text-4xl text-teal-100 opacity-20 animate-float-slower hidden sm:block'
 		},
 		{
 			text: '0110',
-			class: 'left-1/2 top-1/4 text-6xl text-accent opacity-10 animate-float-slower'
+			class: 'left-1/2 top-1/4 text-6xl text-accent opacity-10 animate-float-slower hidden sm:block'
 		},
-		{ text: '111', class: 'left-1/5 top-2/3 text-3xl text-accent opacity-15 animate-float-slower' },
+		{
+			text: '111',
+			class: 'left-1/5 top-2/3 text-3xl text-accent opacity-15 animate-float-slower hidden sm:block'
+		},
 		{
 			text: '10111',
 			class: 'right-1/5 bottom-1/5 text-5xl text-teal-100 opacity-10 animate-float-slower'
 		},
 		{
 			text: '100',
-			class: 'left-1/6 bottom-1/6 text-4xl text-accent opacity-20 animate-float-slower'
+			class:
+				'left-1/6 bottom-1/6 text-4xl text-accent opacity-20 animate-float-slower hidden sm:block'
 		},
 		{
 			text: '11001',
-			class: 'right-1/6 top-1/6 text-6xl text-teal-200 opacity-15 animate-float-slower'
+			class: 'right-1/6 top-1/6 text-6xl text-teal-200 opacity-15 animate-float-slower '
 		},
 		{ text: '010', class: 'left-1/3 top-1/5 text-3xl text-accent opacity-10 animate-float-slower' }
 	];
@@ -42,7 +48,8 @@
 		},
 		{
 			text: '11100',
-			class: 'right-1/8 bottom-1/8 text-5xl text-teal-100 opacity-15 animate-float-slowerer'
+			class:
+				'right-1/8 bottom-1/8 text-5xl text-teal-100 opacity-15 animate-float-slowerer hidden sm:block'
 		},
 		{
 			text: '0101',
@@ -50,11 +57,11 @@
 		},
 		{
 			text: '1010',
-			class: 'right-1/7 top-1/3 text-4xl text-teal-200 opacity-10 float-slower'
+			class: 'right-1/7 top-1/3 text-4xl text-teal-200 opacity-10 float-slower hidden sm:block'
 		},
 		{
 			text: '001',
-			class: 'left-1/5 top-1/8 text-2xl text-accent opacity-15 float-slower'
+			class: 'left-1/5 top-1/8 text-2xl text-accent opacity-15 float-slower hidden sm:block'
 		},
 		{
 			text: '1111',
