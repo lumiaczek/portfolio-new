@@ -13,6 +13,14 @@
 	let toastType = 'null';
 	let failReason = 'empty';
 
+	let formData = {
+		service: '',
+		name: '',
+		email: '',
+		message: '',
+		date: new Date().toLocaleString()
+	};
+
 	const showToast = (status: string) => {
 		toastType = status;
 
@@ -23,12 +31,34 @@
 	};
 
 	const sendForm = async () => {
-		// const form = document.querySelector('form');
-		// if (!form) return;
+		if (!formData.service || !formData.name || !formData.email || !formData.message) {
+			showToast('error');
+			failReason = 'empty';
+			return;
+		}
 
-		// const formData = new FormData(form);
+		const request = await fetch('/contact', {
+			method: 'POST',
+			headers: {
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify(formData)
+		});
 
-		showToast('error');
+		const response = await request.json();
+		if (!response.success) {
+			showToast('error');
+			failReason = '';
+			return;
+		}
+
+		if (request.ok) {
+			showToast('success');
+			formData = { service: '', name: '', email: '', message: '' };
+		} else {
+			showToast('error');
+			failReason = '';
+		}
 	};
 </script>
 
@@ -44,11 +74,12 @@
 	<div class="flex flex-col md:flex-row mx-auto mt-8 max-w-5xl overflow-hidden shadow-lg">
 		<div class="bg-secondary rounded-t-lg md:rounded-l-lg p-8 md:w-2/3">
 			<h3 class="text-3xl font-semibold text-neutral mb-4 text-center">Formularz kontaktowy</h3>
-			<form>
+			<form method="POST" on:submit|preventDefault>
 				<label for="usluga" class="text-lg">Wybierz usługę</label>
 				<select
 					name="usluga"
 					id="usluga"
+					bind:value={formData.service}
 					class="text-base text-primary w-full p-2.5 rounded-lg bg-neutral mb-4 focus:ring-accent focus:ring-2 focus:ring-offset-2 focus:ring-offset-secondary focus:outline-none"
 				>
 					<option value="">Wybierz opcje</option>
@@ -59,6 +90,7 @@
 				</select>
 				<label for="name" class="text-lg">Imię</label>
 				<input
+					bind:value={formData.name}
 					type="text"
 					name="name"
 					placeholder="Jan Kowalski"
@@ -67,6 +99,7 @@
 				/>
 				<label for="email" class="text-lg">Email</label>
 				<input
+					bind:value={formData.email}
 					type="email"
 					name="email"
 					placeholder="example@example.com"
@@ -75,6 +108,7 @@
 				/>
 				<label for="message" class="text-lg">Wiadomość</label>
 				<textarea
+					bind:value={formData.message}
 					name="message"
 					placeholder="Twoja wiadomość"
 					class="text-primary text-base w-full p-2.5 rounded-lg bg-neutral mb-4 focus:ring-accent focus:ring-2 focus:ring-offset-2 focus:ring-offset-secondary focus:outline-none"
@@ -119,20 +153,23 @@
 				</div>
 				<div class="flex flex-row items-start sm:items-center gap-2 sm:gap-4">
 					<a
-						href="/"
+						aria-label="Facebook"
+						href="https://www.facebook.com/daniel.borowski.184881/"
 						target="_blank"
 						class="hover:underline hover:underline-offset-3 text-base sm:text-lg font-light focus:outline-none focus:ring-2 focus:text-accent focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-secondary rounded-lg p-1"
 					>
 						Facebook
 					</a>
 					<a
-						href="/"
+						aria-label="Linkedin"
+						href="https://www.linkedin.com/in/daniel-borowski-622466215/"
 						target="_blank"
 						class="hover:underline hover:underline-offset-3 text-base sm:text-lg font-light focus:outline-none focus:ring-2 focus:text-accent focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-secondary rounded-lg p-1"
 						>Linkedin</a
 					>
 					<a
-						href="/"
+						aria-label="Github"
+						href="https://github.com/lumiaczek"
 						target="_blank"
 						class="hover:underline hover:underline-offset-3 text-base sm:text-lg font-light focus:outline-none focus:ring-2 focus:text-accent focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-secondary rounded-lg p-1"
 						>Github</a

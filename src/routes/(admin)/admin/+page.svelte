@@ -1,6 +1,8 @@
 <script>
+	import mails from '$lib/mails.json';
+	import Button from '$lib/UI/Button.svelte';
+	import { faBars, faTrash } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
-	import { faBars } from '@fortawesome/free-solid-svg-icons';
 	import { fly } from 'svelte/transition';
 
 	let navbarVisible = false;
@@ -9,6 +11,10 @@
 		navbarVisible = !navbarVisible;
 	};
 </script>
+
+<svelte:head>
+	<title>Daniel Borowski | Panel administratora</title>
+</svelte:head>
 
 <nav
 	class="w-full px-4 sm:px-6 lg:px-8 bg-primary sticky z-50 top-0 left-0 border-b border-accent/50"
@@ -138,3 +144,34 @@
 		</div>
 	{/if}
 </nav>
+
+<main class="max-w-7xl mx-auto p-6">
+	{#each mails as mail, i (i)}
+		<div class="bg-secondary p-4 mb-4 rounded-lg shadow-lg relative">
+			<div>
+				<h3 class="text-2xl font-bold">
+					{#if mail.service === 'it'}
+						<b class="text-accent">Usługi Informatyczne</b>
+					{:else if mail.service === 'network'}
+						<b class="text-accent">Projektowanie i instalacja sieci komputerowych</b>
+					{:else if mail.service === 'web'}
+						<b class="text-accent">Tworzenie stron Internetowych</b>
+					{:else if mail.service === 'other'}
+						<b class="text-accent">Inne</b>
+					{:else}
+						<b class="text-accent">Nieznane</b>
+					{/if}
+					- {mail.name}
+				</h3>
+				<p class="text-sm mb-2 text-gray-500">Otrzymano: {new Date(mail.date).toLocaleString()}</p>
+				<p class="text-base mb-1"><strong>Email:</strong> {mail.email}</p>
+				<p class="font-light mb-2">{mail.message}</p>
+			</div>
+			<button
+				class="absolute top-2 right-2 flex flex-col justify-center items-center w-fit bg-red-400/80 rounded-lg shadow-lg p-2.5 hover:bg-red-500 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-secondary focus:ring-red-500 focus:text-white"
+			>
+				<Fa icon={faTrash} class="text-white text-xl" />
+			</button>
+		</div>
+	{/each}
+</main>

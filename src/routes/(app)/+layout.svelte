@@ -1,5 +1,5 @@
 <script>
-	import '../app.css';
+	import '../../app.css';
 	let { children } = $props();
 	import Navbar from '$lib/UI/Navbar.svelte';
 	import Background from '$lib/Background.svelte';

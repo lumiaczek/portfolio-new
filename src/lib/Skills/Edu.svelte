@@ -13,7 +13,9 @@
 		</p>
 	</div>
 	<div class="bg-secondary p-4 md:p-6 rounded-lg shadow-lg scale-105">
-		<h3 class="text-lg md:text-xl lg:text-2xl text-center font-bungee mb-2">Szkoła wyższa</h3>
+		<h3 class="text-lg md:text-xl lg:text-2xl text-center font-bungee mb-2">
+			Szkoła wyższa (planowo)
+		</h3>
 		<p class="text-base md:text-lg text-center mb-2">
 			Politechnika Poznańska, kierunek Cyberbezpieczeństwo.
 		</p>

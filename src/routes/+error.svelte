@@ -1,13 +1,18 @@
 <script>
 	import { goto } from '$app/navigation';
 	import { page } from '$app/state';
+	import Background from '$lib/Background.svelte';
 	import Button from '$lib/UI/Button.svelte';
+	import Footer from '$lib/UI/Footer.svelte';
+	import Navbar from '$lib/UI/Navbar.svelte';
+	import '../app.css';
 </script>
 
 <svelte:head>
 	<title>Daniel Borowski | Błąd</title>
 </svelte:head>
 
+<Navbar />
 <main class="h-[90vh] max-w-7xl mx-auto flex items-center justify-center">
 	<div
 		class="flex flex-col items-center justify-center bg-secondary/70 px-8 py-8 rounded-lg shadow-lg m-4"
@@ -29,3 +34,5 @@
 		>
 	</div>
 </main>
+<Footer />
+<Background />
