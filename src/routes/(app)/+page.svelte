@@ -11,7 +11,7 @@
 </svelte:head>
 
 <Hero />
-<About />
 <Services />
+<About />
 <Projects />
 <CTA />

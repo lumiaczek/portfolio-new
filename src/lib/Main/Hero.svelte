@@ -43,7 +43,7 @@
 	<div class="absolute hidden bottom-5 md:flex flex-row items-center justify-center w-full">
 		<button
 			class="bg-secondary/60 px-4 sm:px-5 py-3 sm:py-4 rounded-full shadow-lg animate-bounce cursor-pointer focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-secondary"
-			on:click={() => goto('/#about')}
+			on:click={() => goto('/#services')}
 		>
 			<Fa icon={faArrowDown} class="text-xl sm:text-2xl text-accent" />
 		</button>
