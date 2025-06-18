@@ -1,9 +1,6 @@
+import { MAIL_DB_URL } from '$env/static/private';
 import type { RequestHandler } from './$types';
 import { json } from '@sveltejs/kit';
-import fs from 'fs';
-import path from 'path';
-
-const MAILS_PATH = path.resolve('src/lib/mails.json');
 
 export const POST: RequestHandler = async ({ request }) => {
 	const { service, name, email, message } = await request.json();
@@ -12,21 +9,25 @@ export const POST: RequestHandler = async ({ request }) => {
 		return json({ error: 'Brak wymaganych pól.' }, { status: 400 });
 	}
 
-	let mails = [];
-	if (fs.existsSync(MAILS_PATH)) {
-		try {
-			const data = fs.readFileSync(MAILS_PATH, 'utf-8');
-			mails = JSON.parse(data);
-		// eslint-disable-next-line @typescript-eslint/no-unused-vars
-		} catch (e) {
-			mails = [];
-		}
-	}
+	const newMail = {
+        service,
+        name,
+        email,
+        message,
+        date: new Date().toLocaleString()
+    };
 
-	const newMail = { service, name, email, message, date: new Date().toISOString() };
-	mails.push(newMail);
+    const req = await fetch(`${MAIL_DB_URL}/mails.json`, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(newMail)
+    });
+    if (!req.ok) {
+        return json({ error: 'Błąd podczas wysyłania wiadomości.' }, { status: 500 });
+    }
+    const data = await req.json();
+    return json({ success: true, data }, { status: 200 });
 
-	fs.writeFileSync(MAILS_PATH, JSON.stringify(mails, null, 2), 'utf-8');
-
-	return json({ success: true });
 };

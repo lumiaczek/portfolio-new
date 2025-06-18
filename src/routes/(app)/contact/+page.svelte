@@ -54,7 +54,7 @@
 
 		if (request.ok) {
 			showToast('success');
-			formData = { service: '', name: '', email: '', message: '' };
+			formData = { service: '', name: '', email: '', message: '', date: '' };
 		} else {
 			showToast('error');
 			failReason = '';

@@ -40,7 +40,9 @@
 
 <main>
 	{#if authorization}
-		<div class="fixed top-0 left-0 z-50 bg-black/50 w-full h-full flex items-center justify-center">
+		<div
+			class="fixed top-0 left-0 z-50 backdrop-blur-2xl w-full h-full flex items-center justify-center"
+		>
 			<div class="bg-secondary p-8 rounded-lg shadow-lg text-center">
 				<h1 class="text-3xl font-bungee mb-2 text-accent">Trwa autoryzacja</h1>
 				<p class="text-lg">Proszę czekać...</p>
@@ -50,7 +52,9 @@
 	{/if}
 
 	{#if authStatus === 'error'}
-		<div class="fixed top-0 left-0 z-50 bg-black/50 w-full h-full flex items-center justify-center">
+		<div
+			class="fixed top-0 left-0 z-50 backdrop-blur-xl w-full h-full flex items-center justify-center"
+		>
 			<div class="bg-secondary p-8 rounded-lg shadow-lg text-center">
 				<h1 class="text-2xl font-bungee mb-2 text-accent">Autoryzacja nie powiodła się</h1>
 				<p class="text-lg mb-4">Kliknij przycisk aby wrócić na stronę logowania</p>
