@@ -47,7 +47,8 @@
 					<p>Kwalifikacje</p>
 				</a>
 				<a
-					href="/cv"
+					href="/Daniel_Borowski.pdf"
+					target="_blank"
 					data-sveltekit-reload
 					class=" text-neutral hover:text-gray-300 flex flex-row items-center gap-2 focus:outline-none focus:ring-2 focus:text-accent focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-secondary rounded-lg p-1 transition-all duration-200"
 				>
@@ -108,7 +109,8 @@
 					<p>Kwalifikacje</p>
 				</a>
 				<a
-					href="/cv"
+					href="/Daniel_Borowski.pdf"
+					target="_blank"
 					on:click={() => (navbarVisible = false)}
 					data-sveltekit-reload
 					class=" text-neutral hover:text-gray-300 flex flex-row items-center gap-2 focus:outline-none focus:ring-2 focus:text-accent focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-secondary rounded-lg p-1 transition-all duration-200"
