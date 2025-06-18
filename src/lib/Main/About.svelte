@@ -35,10 +35,14 @@
 
 			<Button
 				on:click={() => {
-					goto('/about');
+					goto('/about').then(() => {
+						window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
+					});
 				}}
-				icon={faMagnifyingGlass}>Czytaj dalej</Button
+				icon={faMagnifyingGlass}
 			>
+				Czytaj dalej
+			</Button>
 		</div>
 		<div class="flex justify-center items-center mt-10 md:-mt-20 overflow-hidden">
 			<div class="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg">

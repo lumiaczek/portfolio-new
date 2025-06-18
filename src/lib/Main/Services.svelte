@@ -3,7 +3,10 @@
 	import { faEthernet, faLaptopCode, faComputer } from '@fortawesome/free-solid-svg-icons';
 </script>
 
-<section class="max-w-7xl mb-8 mt-28 mx-auto px-4 sm:px-6 lg:px-8" id="services">
+<section
+	class="max-w-7xl mb-8 mt-28 mx-auto px-4 sm:px-6 lg:px-8 scroll-m-24 scroll-smooth"
+	id="services"
+>
 	<div class="mb-4 r">
 		<p class="text-xl sm:text-2xl mb-1">Co mogę dla Ciebie zrobić</p>
 		<h2 class="text-5xl md:text-7xl text-accent font-semibold">Usługi</h2>

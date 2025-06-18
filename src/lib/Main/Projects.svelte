@@ -6,7 +6,7 @@
 
 	<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10">
 		<div class="relative z-10 flex flex-col mb-4">
-			<img src="stalmaks.png" alt="" class="rounded-t-lg object-cover h-[35vh]" />
+			<img src="stalmaks.webp" alt="" class="rounded-t-lg object-cover h-[35vh]" />
 			<div class="flex flex-col justify-center bg-secondary p-4 rounded-b-lg shadow-lg">
 				<h3 class="font-bold text-2xl">Dźwig Barlinek</h3>
 				<p class="font-light text-base">
@@ -18,7 +18,7 @@
 		</div>
 
 		<div class="relative z-10 flex flex-col mb-4">
-			<img src="hspb.png" alt="" class="rounded-t-lg object-cover h-[35vh]" />
+			<img src="hspb.webp" alt="" class="rounded-t-lg object-cover h-[35vh]" />
 			<div class="flex flex-col justify-center bg-secondary p-4 rounded-b-lg shadow-lg">
 				<h3 class="font-bold text-2xl">HSPBInfo</h3>
 				<p class="font-light text-base">

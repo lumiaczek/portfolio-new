@@ -14,7 +14,7 @@
 
 @layer base {
     html {
-        @apply bg-primary text-neutral font-josefin scroll-smooth;
+        @apply bg-primary text-neutral font-josefin;
     }
 
     h1, h2, h3, h4, h5, h6 {
@@ -25,5 +25,27 @@
         @apply appearance-none;
     }
 
+    body {
+        @apply antialiased scroll-smooth;
+    }
 
+    ::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: var(--color-secondary);
+
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: var(--color-accent);
+		border-radius: 10px;
+		border: 3px solid var(--color-secondary);
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background: var(--color-accent);
+        width: 12px;
+	}
 }

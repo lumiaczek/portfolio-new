@@ -7,39 +7,39 @@
 		<h3 class="text-2xl font-bungee mb-2 text-center">Informatyka</h3>
 		<div class="grid grid-cols-3 gap-4">
 			<div class="bg-secondary p-4 rounded-lg shadow-lg flex flex-col items-center justify-center">
-				<img src="https://go-skill-icons.vercel.app/api/icons?i=windows" alt="" />
+				<img src="https://go-skill-icons.vercel.app/api/icons?i=windows&theme=dark" alt="" />
 				<p class="text-base mt-4">Windows</p>
 			</div>
 			<div class="bg-secondary p-4 rounded-lg shadow-lg flex flex-col items-center justify-center">
-				<img src="https://go-skill-icons.vercel.app/api/icons?i=fedora" alt="" />
+				<img src="https://go-skill-icons.vercel.app/api/icons?i=fedora&theme=dark" alt="" />
 				<p class="text-base mt-4">Fedora</p>
 			</div>
 			<div class="bg-secondary p-4 rounded-lg shadow-lg flex flex-col items-center justify-center">
-				<img src="https://go-skill-icons.vercel.app/api/icons?i=redhat" alt="" />
+				<img src="https://go-skill-icons.vercel.app/api/icons?i=redhat&theme=dark" alt="" />
 				<p class="text-base mt-4">Redhat</p>
 			</div>
 			<div class="bg-secondary p-4 rounded-lg shadow-lg flex flex-col items-center justify-center">
-				<img src="https://go-skill-icons.vercel.app/api/icons?i=docker" alt="" />
+				<img src="https://go-skill-icons.vercel.app/api/icons?i=docker&theme=dark" alt="" />
 				<p class="text-base mt-4">Docker</p>
 			</div>
 			<div class="bg-secondary p-4 rounded-lg shadow-lg flex flex-col items-center justify-center">
-				<img src="https://go-skill-icons.vercel.app/api/icons?i=proxmox" alt="" />
+				<img src="https://go-skill-icons.vercel.app/api/icons?i=proxmox&theme=dark" alt="" />
 				<p class="text-base mt-4">Proxmox</p>
 			</div>
 			<div class="bg-secondary p-4 rounded-lg shadow-lg flex flex-col items-center justify-center">
-				<img src="https://go-skill-icons.vercel.app/api/icons?i=nginx" alt="" />
+				<img src="https://go-skill-icons.vercel.app/api/icons?i=nginx&theme=dark" alt="" />
 				<p class="text-base mt-4">Nginx</p>
 			</div>
 			<div class="bg-secondary p-4 rounded-lg shadow-lg flex flex-col items-center justify-center">
-				<img src="https://go-skill-icons.vercel.app/api/icons?i=ansible" alt="" />
+				<img src="https://go-skill-icons.vercel.app/api/icons?i=ansible&theme=dark" alt="" />
 				<p class="text-base mt-4">Ansible</p>
 			</div>
 			<div class="bg-secondary p-4 rounded-lg shadow-lg flex flex-col items-center justify-center">
-				<img src="https://go-skill-icons.vercel.app/api/icons?i=word" alt="" />
+				<img src="https://go-skill-icons.vercel.app/api/icons?i=word&theme=dark" alt="" />
 				<p class="text-base mt-4">Word</p>
 			</div>
 			<div class="bg-secondary p-4 rounded-lg shadow-lg flex flex-col items-center justify-center">
-				<img src="https://go-skill-icons.vercel.app/api/icons?i=excel" alt="" />
+				<img src="https://go-skill-icons.vercel.app/api/icons?i=excel&theme=dark" alt="" />
 				<p class="text-base mt-4">Excel</p>
 			</div>
 		</div>
@@ -60,19 +60,19 @@
 				<p class="text-base mt-4">TP-Link</p>
 			</div>
 			<div class="bg-secondary p-4 rounded-lg shadow-lg flex flex-col items-center justify-center">
-				<img src="https://go-skill-icons.vercel.app/api/icons?i=wireshark" alt="" />
+				<img src="https://go-skill-icons.vercel.app/api/icons?i=wireshark&theme=dark" alt="" />
 				<p class="text-base mt-4">Wireshark</p>
 			</div>
 			<div class="bg-secondary p-4 rounded-lg shadow-lg flex flex-col items-center justify-center">
-				<img src="https://go-skill-icons.vercel.app/api/icons?i=putty" alt="" />
+				<img src="https://go-skill-icons.vercel.app/api/icons?i=putty&theme=dark" alt="" />
 				<p class="text-base mt-4">Putty</p>
 			</div>
 			<div class="bg-secondary p-4 rounded-lg shadow-lg flex flex-col items-center justify-center">
-				<img src="https://go-skill-icons.vercel.app/api/icons?i=prometheus" alt="" />
+				<img src="https://go-skill-icons.vercel.app/api/icons?i=prometheus&theme=dark" alt="" />
 				<p class="text-base mt-4">Prometheus</p>
 			</div>
 			<div class="bg-secondary p-4 rounded-lg shadow-lg flex flex-col items-center justify-center">
-				<img src="https://go-skill-icons.vercel.app/api/icons?i=ngrok" alt="" />
+				<img src="https://go-skill-icons.vercel.app/api/icons?i=ngrok&theme=dark" alt="" />
 				<p class="text-base mt-4">Ngrok</p>
 			</div>
 		</div>
