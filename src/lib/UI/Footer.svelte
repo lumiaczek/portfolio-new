@@ -14,21 +14,24 @@
 			</p>
 			<div class="flex flex-row gap-2 mt-2">
 				<a
-					href="/"
+					aria-label="Facebook"
+					href="https://www.facebook.com/daniel.borowski.184881/"
 					class="text-neutral text-3xl hover:text-accent focus:outline-none focus:ring-2 focus:text-accent focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-secondary rounded-lg p-1 transition duration-200"
 					target="_blank"
 				>
 					<Fa icon={faFacebookSquare} />
 				</a>
 				<a
-					href="/"
+					aria-label="Linkedin"
+					href="https://www.linkedin.com/in/daniel-borowski-622466215/"
 					class="text-neutral text-3xl hover:text-accent focus:outline-none focus:ring-2 focus:text-accent focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-secondary rounded-lg p-1 transition duration-200"
 					target="_blank"
 				>
 					<Fa icon={faLinkedin} />
 				</a>
 				<a
-					href="/"
+					aria-label="Github"
+					href="https://github.com/lumiaczek"
 					class="text-neutral text-3xl hover:text-accent focus:outline-none focus:ring-2 focus:text-accent focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-secondary rounded-lg p-1 transition duration-200"
 					target="_blank"
 				>
