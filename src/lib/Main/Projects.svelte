@@ -10,7 +10,7 @@
 			<div class="flex flex-col justify-center bg-secondary p-4 rounded-b-lg shadow-lg">
 				<h3 class="font-bold text-2xl">Dźwig Barlinek</h3>
 				<p class="font-light text-base">
-					Strona zrealizowana dla firmy Stalmkas, oferująca usługi dźwigowe, podnośnikowe itp. Jeden
+					Strona zrealizowana dla firmy Stalmaks, oferująca usługi dźwigowe, podnośnikowe itp. Jeden
 					z moich pierwszych projektów. Zrealizowana przy użyciu SvelteKit, Tailwind CSS i
 					TypeScript.
 				</p>
