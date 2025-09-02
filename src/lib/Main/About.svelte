@@ -24,9 +24,9 @@
 				Obecnie <b class="text-accent">zakończyłem już naukę w technikum</b> i jestem gotów na nowe
 				wyzwania. Moim celem jest
 				<b class="text-accent">zdobycie tytułu inżyniera na Politechnice Poznańskiej</b>, gdzie
-				planuję studiować <b class="text-accent">cyberbezpieczeństwo</b>. W międzyczasie chcę
-				rozwijać swoje umiejętności teoretyczne, kończąc <b class="text-accent">kurs Cisco CCNP</b>,
-				a także praktyczne, <b class="text-accent">pracując w branży IT</b>.
+				planuję studiować <b class="text-accent">informatykę</b>. W międzyczasie chcę rozwijać swoje
+				umiejętności teoretyczne, kończąc <b class="text-accent">kurs Cisco CCNP</b>, a także
+				praktyczne, <b class="text-accent">pracując w branży IT</b>.
 			</p>
 			<p class="text-base sm:text-lg">
 				Jeśli chcesz dowiedzieć się więcej o moich umiejętnościach i kwalifikacjach, zapraszam do

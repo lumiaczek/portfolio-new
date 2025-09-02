@@ -10,7 +10,7 @@
 	<div class="bg-secondary p-4 md:p-6 rounded-lg shadow-lg">
 		<div class="flex flex-row justify-between items-center">
 			<h3 class="font-regular">Informatyk dla Stalmaks Krzysztof Gilewicz</h3>
-			<p class="text-xs md:text-base">2024</p>
+			<p class="text-xs md:text-base">2023 - 2025</p>
 		</div>
 		<p class="text-xs md:text-base">Umowa o zlecenie ze stawką godzinową</p>
 	</div>
@@ -26,7 +26,7 @@
 	<div class="bg-secondary p-4 md:p-6 rounded-lg shadow-lg">
 		<div class="flex flex-row justify-between items-center">
 			<h3 class="font-regular">Praktykant w dziale organizacji Urzędu Miejskiego w Barlinku</h3>
-			<p class="text-xs md:text-base">2024</p>
+			<p class="text-xs md:text-base">2023</p>
 		</div>
 		<p class="text-xs md:text-base">Umowa o praktykę zawodową</p>
 	</div>

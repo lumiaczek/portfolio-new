@@ -14,10 +14,10 @@
 	</div>
 	<div class="bg-secondary p-4 md:p-6 rounded-lg shadow-lg scale-105">
 		<h3 class="text-lg md:text-xl lg:text-2xl text-center font-bungee mb-2">
-			Szkoła wyższa (planowo)
+			Szkoła wyższa <br /> <strong class="font-josefin font-light">(w trakcie)</strong>
 		</h3>
 		<p class="text-base md:text-lg text-center mb-2">
-			Politechnika Poznańska, kierunek Cyberbezpieczeństwo.
+			Politechnika Poznańska, kierunek Informatyka.
 		</p>
 	</div>
 	<div class="bg-secondary p-4 md:p-6 rounded-lg shadow-lg">
