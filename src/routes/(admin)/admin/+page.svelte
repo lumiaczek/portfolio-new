@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { faGear, faTrash } from '@fortawesome/free-solid-svg-icons';
+	import { faTrashCan } from '@fortawesome/free-regular-svg-icons';
 	import Fa from 'svelte-fa';
 
 	import { onMount } from 'svelte';
@@ -104,7 +104,7 @@
 					removeMail(mail.id);
 				}}
 			>
-				<Fa icon={faTrash} class="text-neutral text-xl" />
+				<Fa icon={faTrashCan} class="text-neutral text-xl" />
 			</button>
 		</div>
 	{/each}

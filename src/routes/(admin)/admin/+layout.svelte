@@ -284,10 +284,16 @@
 				</div>
 			</div>
 			<div class="flex items-center justify-between p-4 rounded-lg shadow-lg bg-secondary lg:mt-4">
-				<div class="flex items-center justify-between w-full"></div>
+				<div class="flex items-center justify-between w-full">
+					<p class="font-light text-neutral text-lg">Wyświetleń na blogu:</p>
+					<p class="font-medium text-accent text-xl">{v}</p>
+				</div>
 			</div>
 			<div class="flex items-center justify-between p-4 rounded-lg shadow-lg bg-secondary lg:mt-4">
-				<div class="flex items-center justify-between w-full"></div>
+				<div class="flex items-center justify-between w-full">
+					<p class="font-light text-neutral text-lg">Polubienia:</p>
+					<p class="font-medium text-accent text-xl">{v}</p>
+				</div>
 			</div>
 		</div>
 	</section>

@@ -115,7 +115,9 @@
 					rows="5"
 					required
 				></textarea>
-				<Button icon={faEnvelope} clazz="w-full" on:click={sendForm}>Wyślij wiadomość</Button>
+				<Button type="solid" icon={faEnvelope} clazz="w-full" on:click={sendForm}
+					>Wyślij wiadomość</Button
+				>
 			</form>
 		</div>
 		<div

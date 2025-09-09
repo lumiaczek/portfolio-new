@@ -33,6 +33,10 @@
 	};
 </script>
 
+<svelte:head>
+	<title>Daniel Borowski | Ustawienia</title>
+</svelte:head>
+
 <main class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-4">
 	<section class="mb-8 bg-secondary/70 p-6 rounded-lg shadow-lg">
 		<h2 class="text-2xl font-semibold mb-2">Zarządzanie licznikiem</h2>
