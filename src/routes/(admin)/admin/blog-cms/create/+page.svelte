@@ -15,6 +15,8 @@
 
 	export let data: PageData;
 
+	console.log(data);
+
 	if (data.mode === 'edit') {
 		mode_title = 'Edytuj artykuł';
 
