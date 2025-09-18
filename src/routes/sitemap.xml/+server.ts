@@ -1,6 +1,6 @@
 import type { RequestHandler } from './$types';
 
-const BASE_URL = 'https://danielborowski.pl';
+const BASE_URL = 'https://boroit.pl';
 const routes = [
 	'',
 	'about',
