@@ -7,6 +7,18 @@
 
 	let mode_title = 'Dodaj nowy artykuł';
 
+	type PageData = {
+		post: {
+			id: string;
+			title: string;
+			description: string;
+			content: string;
+			published: boolean;
+		};
+		mode: 'create' | 'edit' | 'post-error';
+		TINYMCE_API_KEY: string;
+	};
+
 	let content = '';
 	let title = '';
 	let description = '';
@@ -137,7 +149,7 @@
 				</div>
 				<div class="mb-4">
 					<label for="content" class="text-lg">Treść</label>
-					<Editor apiKey={data.TINYMCE_API_KEY} disabled="false" bind:value={content} />
+					<Editor apiKey={data.TINYMCE_API_KEY} bind:value={content} />
 				</div>
 				<div class="flex flex-row justify-between items-center w-full">
 					<div class="flex space-x-2">

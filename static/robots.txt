@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /auth
 Disallow: /admin
 
-Sitemap: https://danielborowski.pl/sitemap.xml
+Sitemap: https://boroit.pl/sitemap.xml

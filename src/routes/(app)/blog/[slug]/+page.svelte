@@ -16,7 +16,7 @@
 			<h2 class="text-5xl md:text-7xl text-accent font-semibold">{post.title}</h2>
 			<p class="text-lg font-light sm:text-xl mb-1">Opublikowano {post.date}</p>
 		</div>
-		<p class="text-base text-muted mb-4">{post.description}</p>
+		<p class="text-base mb-4">{post.description}</p>
 		<div class="font-light">{@html post.content}</div>
 	</article>
 </main>
