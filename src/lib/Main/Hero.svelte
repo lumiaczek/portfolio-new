@@ -16,13 +16,13 @@
 	<div
 		class="z-20 bg-secondary/70 px-4 sm:px-8 py-6 sm:py-8 flex flex-col rounded-lg shadow-lg w-full md:w-fit"
 	>
-		<p class="text-xl sm:text-2xl md:text-3xl text-left">👋 Cześć, jestem</p>
+		<p class="text-xl sm:text-2xl md:text-3xl text-center md:text-left">👋 Cześć, jestem</p>
 		<h1
-			class="text-3xl md:text-7xl font-bungee bg-clip-text text-transparent bg-gradient-to-r from-accent to-teal-200 mb-2 text-left"
+			class="text-3xl md:text-7xl font-bungee bg-clip-text text-transparent bg-gradient-to-r from-accent to-teal-200 mb-2 text-center md:text-left"
 		>
 			Daniel Borowski
 		</h1>
-		<p class="mb-4 text-base sm:text-lg text-neutral text-left">
+		<p class="mb-4 text-base sm:text-lg text-neutral text-center md:text-left">
 			Jestem z wykształcenia technikiem informatykiem, specjalizującym się w sieciach komputerowych <br
 				class="hidden sm:inline"
 			/>
@@ -30,7 +30,7 @@
 		</p>
 
 		<div
-			class="text-base sm:text-lg md:text-xl flex flex-col items-center md:flex-row gap-2 flex-wrap"
+			class="text-base sm:text-lg md:text-xl mx-auto md:m-0 flex items-center flex-row gap-2 flex-wrap"
 		>
 			<button
 				class="bg-accent/80 cursor-pointer w-fit flex flex-row justify-center items-center text-neutral px-4 sm:px-6 py-2 sm:py-3 rounded-lg hover:bg-accent/50 transition duration-200 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2 focus:ring-offset-secondary"
