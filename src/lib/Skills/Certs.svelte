@@ -1,5 +1,5 @@
 <script>
-	import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+	import { faHourglass, faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 	import { fly } from 'svelte/transition';
 </script>
@@ -7,6 +7,15 @@
 <article class="grid grid-cols-1 lg:grid-cols-2 gap-2" in:fly={{ x: 80, duration: 600 }}>
 	<div class="p-4">
 		<h3 class="text-2xl md:text-3xl text-center font-bungee mb-4">Sieci komputerowe</h3>
+		<div class="relative flex mb-4 bg-secondary p-4 rounded-lg shadow-lg">
+			<div class="h-22 w-22 rounded-2xl flex items-center justify-center bg-primary">
+				<Fa icon={faHourglass} class="text-3xl text-neutral" />
+			</div>
+			<div class="flex flex-col justify-center ml-4">
+				<h3 class="font-bold text-lg">CCNP Enterprise: Advanced Routing (w trakcie)</h3>
+				<p class="font-light text-base">Cisco Networking Academy</p>
+			</div>
+		</div>
 		<div class="relative flex mb-4 bg-secondary p-4 rounded-lg shadow-lg">
 			<img src="ccnp.webp" alt="" class="h-22" />
 			<div class="flex flex-col justify-center ml-4">
@@ -21,6 +30,7 @@
 				<Fa icon={faMagnifyingGlass} />
 			</a>
 		</div>
+
 		<div class="relative flex mb-4 bg-secondary p-4 rounded-lg shadow-lg">
 			<img src="ccna3.webp" alt="" class="h-22" />
 			<div class="flex flex-col justify-center ml-4">
@@ -66,6 +76,15 @@
 	</div>
 	<div class="p-4">
 		<h3 class="text-2xl md:text-3xl text-center font-bungee mb-4">Cyberbezpieczeństwo</h3>
+		<div class="relative flex mb-4 bg-secondary p-4 rounded-lg shadow-lg">
+			<div class="h-22 w-22 rounded-2xl flex items-center justify-center bg-primary">
+				<Fa icon={faHourglass} class="text-3xl text-neutral" />
+			</div>
+			<div class="flex flex-col justify-center ml-4">
+				<h3 class="font-bold text-lg">Certified Junior Cybersecurity Associate</h3>
+				<p class="font-light text-base">HTB Academy</p>
+			</div>
+		</div>
 		<div class="relative flex mb-4 bg-secondary p-4 rounded-lg shadow-lg">
 			<img src="ns.webp" alt="" class="h-22" />
 			<div class="flex flex-col justify-center ml-4">

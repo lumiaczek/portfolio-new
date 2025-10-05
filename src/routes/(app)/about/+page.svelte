@@ -50,10 +50,11 @@
 				>.
 			</p>
 			<p class="text-base sm:text-lg">
-				Obecnie, czekam na wyniki matur, które mam nadzieję, będą pozytywne. Planuję rozpocząć
-				studia na <b class="text-accent">Politechnice Poznańskiej</b>, na kierunku
-				<b class="text-accent">informatyka</b>
-				oraz <b class="text-accent">kontynuować rozwój swoich umiejętności w branży IT</b>.
+				Obecnie, studiuję na <b class="text-accent">Politechnice Poznańskiej</b>, na kierunku
+				<b class="text-accent">informatyka</b> w międzyczasie
+				<b class="text-accent">szukam zatrudnienia</b>
+				w branży IT, aby rozwijać swoje umiejętności praktyczne, a także kończę kurs
+				<b class="text-accent">Cisco CCNP: ENARSI</b>, aby poszerzyć swoją wiedzę teoretyczną.
 			</p>
 			<p class="text-base sm:text-lg">
 				W przyszłości chciałbym pracować jako starszy administrator sieci komputerowych lub
