@@ -6,13 +6,13 @@
 
 	<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10">
 		<div class="relative z-10 flex flex-col mb-4">
-			<img src="stalmaks.webp" alt="" class="rounded-t-lg object-cover h-[35vh]" />
+			<img src="wybawialnia.webp" alt="" class="rounded-t-lg object-cover h-[35vh]" />
 			<div class="flex flex-col justify-center bg-secondary p-4 rounded-b-lg shadow-lg">
-				<h3 class="font-bold text-2xl">Dźwig Barlinek</h3>
+				<h3 class="font-bold text-2xl">WyBawialnia Poznań</h3>
 				<p class="font-light text-base">
-					Strona zrealizowana dla firmy Stalmaks, oferująca usługi dźwigowe, podnośnikowe itp. Jeden
-					z moich pierwszych projektów. Zrealizowana przy użyciu SvelteKit, Tailwind CSS i
-					TypeScript.
+					Strona zrealizowana dla bawialnio - kawiarni WyBawialnia, oferującej organizację urodzin
+					dla dzieci. Zrealizowana przy użyciu SvelteKit, Tailwind CSS i TypeScript. Postawiona na
+					Vercel. Zoptymalizowana pod SEO.
 				</p>
 			</div>
 		</div>
@@ -27,6 +27,7 @@
 				</p>
 			</div>
 		</div>
+
 		<div class="col-span-1 sm:col-span-2 flex justify-center">
 			<div class="relative z-10 flex flex-col mb-4 w-full sm:w-1/2">
 				<img src="stalmaks-new.webp" alt="" class="rounded-t-lg object-cover h-[35vh]" />
