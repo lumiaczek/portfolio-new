@@ -43,6 +43,8 @@
 	});
 
 	const pad = (num: number) => num.toString().padStart(2, '0');
+
+	isTimeUp = true;
 </script>
 
 <svelte:head>
@@ -97,31 +99,6 @@
 					<div class="text-right mt-8">
 						<p class="text-2xl font-light text-[#e63946]">Kocham Cię najmocniej na świecie ❤️</p>
 						<p class="text-lg text-gray-400">Twój Daniel</p>
-					</div>
-				</div>
-			</div>
-		{:else}
-			<div class="timer-wrapper">
-				<h2 class="mt-8 lg:mt-20 text-center">Do Walentynek pozostało:</h2>
-				<div class="timer">
-					<div class="time-box">
-						<span class="number">{pad(timeLeft.days)}</span>
-						<span class="label">Dni</span>
-					</div>
-					<div class="separator">:</div>
-					<div class="time-box">
-						<span class="number">{pad(timeLeft.hours)}</span>
-						<span class="label">Godz</span>
-					</div>
-					<div class="separator">:</div>
-					<div class="time-box">
-						<span class="number">{pad(timeLeft.minutes)}</span>
-						<span class="label">Min</span>
-					</div>
-					<div class="separator">:</div>
-					<div class="time-box">
-						<span class="number">{pad(timeLeft.seconds)}</span>
-						<span class="label">Sek</span>
 					</div>
 				</div>
 			</div>
